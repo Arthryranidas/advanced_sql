@@ -73,5 +73,5 @@ Each script can be run independently. The `.vscode/settings.json` file contains 
 *Below is a graphical representation shown for the first sql query*
 
 Click here to view:
-[Top paying roles](.vscode\assets/new%20Top%2010%20Highest-Paying%20Data%20Analyst%20Jobs%20(2).png)
+[Top paying roles](project_sql/assets/new%20Top%2010%20Highest-Paying%20Data%20Analyst%20Jobs%20(2).png)
  
