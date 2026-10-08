@@ -70,7 +70,8 @@ Each script can be run independently. The `.vscode/settings.json` file contains 
 | Data Analyst | $186,000 | Anywhere | SmartAsset |
 | Data Analyst | $184,000 | Anywhere | Get It Recruit - Information Technology |
 
-*Below is a graphical representation shown for the first sql query :*
+*Below is a graphical representation shown for the first sql query*
 
-![Top paying roles](.vscode\assets/new%20Top%2010%20Highest-Paying%20Data%20Analyst%20Jobs%20(2).png)
- |
+Click here to view:
+[Top paying roles](.vscode\assets/new%20Top%2010%20Highest-Paying%20Data%20Analyst%20Jobs%20(2).png)
+ 
