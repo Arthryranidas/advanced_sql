@@ -9,10 +9,6 @@ The analysis scripts are in [`sql project folder`](.vscode/project_sql/):
 | Script | What it analyzes |
 | --- | --- |
 | [`1_top_paying_jobs.sql`](.vscode/project_sql/1_top_paying_jobs.sql) | The 10 highest-paying Data Analyst postings marked as `Anywhere` with a reported annual salary, including company names. |
-| 
-![Top paying roles](.vscode\assets/new%20Top%2010%20Highest-Paying%20Data%20Analyst%20Jobs%20(2).png)
- |
-*The above one is a graphical representation of the first sql query.*
 | [`2_top_paying_job_skills.sql`](.vscode/project_sql/2_top_paying_job_skills.sql) | Skills listed for those top 10 remote postings, along with job and company details. |
 | [`3_top_demanded_skills.sql`](.vscode/project_sql/3_top_demanded_skills.sql) | The five most frequently listed skills across Data Analyst postings. |
 | [`4_top_paying_skills.sql`](.vscode/project_sql/4_top_paying_skills.sql) | Up to 25 skills ranked by average annual salary among postings with reported salaries. |
@@ -57,7 +53,9 @@ Each script can be run independently. The `.vscode/settings.json` file contains 
 - Demand is measured by counting job-skill rows. It represents the number of postings associated with a skill in this dataset, not a real-time market-wide count.
 - Average salaries and demand reflect only the available dataset and the filters in each individual query.
 
-**Below is the table format shown for the first query:**
+# NOTE :
+
+**Below is the table format shown for the first sql query :**
 
 | job_title_short | salary_year_avg | job_location | company_name |
 |---|---:|---|---|
@@ -71,3 +69,8 @@ Each script can be run independently. The `.vscode/settings.json` file contains 
 | Data Analyst | $189,000 | Anywhere | Motional |
 | Data Analyst | $186,000 | Anywhere | SmartAsset |
 | Data Analyst | $184,000 | Anywhere | Get It Recruit - Information Technology |
+
+*Below is a graphical representation shown for the first sql query :*
+
+![Top paying roles](.vscode\assets/new%20Top%2010%20Highest-Paying%20Data%20Analyst%20Jobs%20(2).png)
+ |
