@@ -4,17 +4,17 @@ This project uses SQL to explore Data Analyst job postings, advertised salaries,
 
 ## **Project contents**
 
-The analysis scripts are in [`sql project folder`](.vscode/project_sql/):
+The analysis scripts are in [`sql project folder`](project_sql/):
 
 | Script | What it analyzes |
 | --- | --- |
-| [`1_top_paying_jobs.sql`](.vscode/project_sql/1_top_paying_jobs.sql) | The 10 highest-paying Data Analyst postings marked as `Anywhere` with a reported annual salary, including company names. |
-| [`2_top_paying_job_skills.sql`](.vscode/project_sql/2_top_paying_job_skills.sql) | Skills listed for those top 10 remote postings, along with job and company details. |
-| [`3_top_demanded_skills.sql`](.vscode/project_sql/3_top_demanded_skills.sql) | The five most frequently listed skills across Data Analyst postings. |
-| [`4_top_paying_skills.sql`](.vscode/project_sql/4_top_paying_skills.sql) | Up to 25 skills ranked by average annual salary among postings with reported salaries. |
-| [`5_optimal_skills.sql`](.vscode/project_sql/5_optimal_skills.sql) | Skills appearing in more than 10 salary-reported Data Analyst postings, ranked by average salary and then demand. |
-| [`high_demand_and_high_paying_skills_with_avg_benchmarks.sql`](.vscode/project_sql/high_demand_and_high_paying_skills_with_avg_benchmarks.sql) | Skills whose demand and average salary both exceed the averages across skills. |
-| [`high_paying_DAjobs_company.sql`](.vscode/project_sql/high_paying_DAjobs_company.sql) | Companies with at least five Data Analyst postings whose average reported salary exceeds the overall average. |
+| [`1_top_paying_jobs.sql`](/project_sql/1_top_paying_jobs.sql) | The 10 highest-paying Data Analyst postings marked as `Anywhere` with a reported annual salary, including company names. |
+| [`2_top_paying_job_skills.sql`](project_sql/2_top_paying_job_skills.sql) | Skills listed for those top 10 remote postings, along with job and company details. |
+| [`3_top_demanded_skills.sql`](project_sql/3_top_demanded_skills.sql) | The five most frequently listed skills across Data Analyst postings. |
+| [`4_top_paying_skills.sql`](project_sql/4_top_paying_skills.sql) | Up to 25 skills ranked by average annual salary among postings with reported salaries. |
+| [`5_optimal_skills.sql`](project_sql/5_optimal_skills.sql) | Skills appearing in more than 10 salary-reported Data Analyst postings, ranked by average salary and then demand. |
+| [`high_demand_and_high_paying_skills_with_avg_benchmarks.sql`](project_sql/high_demand_and_high_paying_skills_with_avg_benchmarks.sql) | Skills whose demand and average salary both exceed the averages across skills. |
+| [`high_paying_DAjobs_company.sql`](project_sql/high_paying_DAjobs_company.sql) | Companies with at least five Data Analyst postings whose average reported salary exceeds the overall average. |
 
 The numbered scripts are standalone analyses; the second script repeats the top-jobs selection in a CTE rather than relying on the first script's results. The benchmark and company queries use `job_title = 'Data Analyst'`, while several other scripts use `job_title_short = 'Data Analyst'`. Both columns must therefore be available in the database.
 
